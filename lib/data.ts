@@ -1,5 +1,5 @@
 import { PaperProps } from "@/components/search/paper-card";
-import { FeatureCardProps } from "@/components/features/feature-card";
+import { FeatureCardProps } from "@/components/layout/feature-card";
 import { Icons } from "@/components/ui/icons";
 
 export const features: FeatureCardProps[] = [
