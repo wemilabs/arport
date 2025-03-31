@@ -1,6 +1,47 @@
 import { PaperProps } from "@/components/search/paper-card";
+import { FeatureCardProps } from "@/components/features/feature-card";
+import { Icons } from "@/components/ui/icons";
 
-const MOCK_PAPERS: PaperProps[] = [
+export const features: FeatureCardProps[] = [
+  {
+    icon: Icons.search,
+    title: "Advanced Search",
+    description:
+      "Powerful search capabilities with filters for year, author, citation count, and more.",
+  },
+  {
+    icon: Icons.bookText,
+    title: "Comprehensive Database",
+    description:
+      "Access millions of papers from reputable journals and academic databases.",
+  },
+  {
+    icon: Icons.trendingUp,
+    title: "Citation Metrics",
+    description:
+      "View citation counts and impact factors to evaluate research importance.",
+  },
+  {
+    icon: Icons.fileText,
+    title: "Full-Text Access",
+    description:
+      "Direct links to full-text PDFs when available through institutional access.",
+  },
+  {
+    icon: Icons.compass,
+    title: "Research Explorer",
+    description:
+      "Discover related papers and explore research topics with interactive tools.",
+  },
+  {
+    icon: Icons.bookOpen,
+    title: "Save & Organize",
+    description:
+      "Create collections and save papers for future reference and organization.",
+  },
+];
+
+export const MOCK_PAPERS: PaperProps[] = [
   {
     id: "1",
     title:
@@ -64,5 +105,3 @@ const MOCK_PAPERS: PaperProps[] = [
     pdfUrl: "#",
   },
 ];
-
-export { MOCK_PAPERS };

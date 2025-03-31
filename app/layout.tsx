@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
-// import { unstable_ViewTransition as ViewTransition } from "react";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Header } from "@/components/layout/site-header";
@@ -31,7 +30,7 @@ export const metadata: Metadata = {
     description:
       "Discover and access academic papers from universities and research institutions",
     type: "website",
-    url: "https://rarp.vercel.app",
+    url: "https://arport-psi.vercel.app",
     siteName: "arport | Academic Research Portal",
     images: [
       {
@@ -46,7 +45,7 @@ export const metadata: Metadata = {
     description:
       "Discover and access academic papers from universities and research institutions",
     card: "summary_large_image",
-    site: "rarp.vercel.app",
+    site: "arport-psi.vercel.app",
     images: [
       {
         url: "https://ubrw5iu3hw.ufs.sh/f/TFsxjrtdWsEIyHzxoRXdEKaUNDPVSW9zJCkG1t7F60R2joT5",
@@ -79,10 +78,8 @@ export default function RootLayout({
             <QuickNav />
             <Header />
             <main className="flex-1">
-              {/* <ViewTransition> */}
               {children}
               {modal}
-              {/* </ViewTransition> */}
             </main>
           </div>
         </ThemeProvider>
