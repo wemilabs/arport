@@ -1,3 +1,5 @@
+"use server";
+
 export async function signIn() {
   console.log("signing in");
   return;
