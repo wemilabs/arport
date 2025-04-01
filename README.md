@@ -1,4 +1,4 @@
-# Arport - Rwanda Academic Research Portal
+# Arport - The Comprehensive Unified Space for Academic Research
 
 **Arport** is a modern academic research portal designed to help researchers, students, and academics find, filter, and access scholarly papers and articles.
 

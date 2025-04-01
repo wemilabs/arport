@@ -35,7 +35,7 @@ export function SearchBar({
         placeholder={placeholder}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="h-12 rounded-full border-1 px-4 shadow-sm focus-visible:ring-primary focus-visible:ring-0 focus-visible:ring-offset-0"
+        className="h-12 rounded-full border-1 px-4 shadow-sm focus-visible:ring-primary focus-visible:ring-0 focus-visible:ring-offset-0 font-mono"
         autoFocus
       />
       <Button type="submit" size="icon" className="size-11 rounded-full">

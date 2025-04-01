@@ -21,17 +21,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Arport | Academic Research Portal",
-  description:
-    "Discover and access academic papers from universities and research institutions",
-  keywords: ["arport", "Academic Research Portal", "Academic Research"],
+  title: "Arport",
+  description: "The most comprehensive unified space for Academic Research",
+  keywords: [
+    "arport",
+    "academic research",
+    "portal",
+    "students",
+    "supervisors",
+    "researchers",
+  ],
   openGraph: {
-    title: "Arport | Academic Research Portal",
-    description:
-      "Discover and access academic papers from universities and research institutions",
+    title: "Arport",
+    description: "The most comprehensive unified space for Academic Research",
     type: "website",
     url: "https://arport-psi.vercel.app",
-    siteName: "arport | Academic Research Portal",
+    siteName: "arport",
     images: [
       {
         url: "https://ubrw5iu3hw.ufs.sh/f/TFsxjrtdWsEIyHzxoRXdEKaUNDPVSW9zJCkG1t7F60R2joT5",
@@ -41,9 +46,8 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Arport | Academic Research Portal",
-    description:
-      "Discover and access academic papers from universities and research institutions",
+    title: "Arport",
+    description: "The most comprehensive unified space for Academic Research",
     card: "summary_large_image",
     site: "arport-psi.vercel.app",
     images: [

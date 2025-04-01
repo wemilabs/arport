@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SearchBar } from "@/components/search/search-bar";
+import { TypingAnimation } from "@/components/layout/typing-animation";
 
 export function Hero() {
   return (
@@ -13,16 +14,9 @@ export function Hero() {
       <section className="min-h-[80vh] flex flex-col items-center justify-center space-y-8 px-4 py-16">
         <div className="max-w-4xl w-full text-center space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-foreground">
-            The Comprehensive Unified Space for{" "}
-            <span
-              className="text-primary"
-              // className="text-4xl font-extrabold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1] bg-gradient-to-r from-primary/10 via-primary to-primary/65 bg-clip-text text-transparent mt-2"
-              // make this part dynamic [Academic Research, Students, Supervisors]
-              // like typing or appearing/switching from the bottom
-              // use react-typing or react-type
-              // give it a different color also
-            >
-              Academic Research
+            The most comprehensive unified space for{" "}
+            <span className="font-mono text-primary bg-primary/10">
+              <TypingAnimation />
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
